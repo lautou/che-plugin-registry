@@ -49,6 +49,7 @@ for extension in $(yq -r '.spec.extensions[]?' "${metas[@]}" | sort | uniq); do
 
   echo "    Rewriting meta.yaml '${extension}' -> 'relative:extension/resources/${destination#/}''"
   sed -i "s|${extension}|relative:extension/resources/${destination#/}|" "${metas[@]}"
+  sleep 1 # To avoid error HTTP 429
 done
 
 rm -rf "${TEMP_DIR}"
