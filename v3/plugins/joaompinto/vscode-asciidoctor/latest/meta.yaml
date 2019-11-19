@@ -12,4 +12,4 @@ repository: https://github.com/asciidoctor/asciidoctor-vscode
 firstPublicationDate: "2019-09-09"
 spec:
   extensions:
-  - https://github.com/lautou/marketplace-visualstudio/joaompinto/vsextensions/asciidoctor-vscode/2.7.6/vspackage
+  - https://raw.githubusercontent.com/lautou/marketplace-visualstudio/master/joaompinto/vsextensions/asciidoctor-vscode/2.7.6/vspackage

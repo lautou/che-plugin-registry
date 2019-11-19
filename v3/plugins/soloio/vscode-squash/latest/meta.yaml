@@ -16,4 +16,4 @@ spec:
       name: "vscode-squash"
       memoryLimit: "512Mi"
   extensions:
-    - https://github.com/lautou/marketplace-visualstudio/ilevine/vsextensions/squash/0.5.15/vspackage
+    - https://raw.githubusercontent.com/lautou/marketplace-visualstudio/master/ilevine/vsextensions/squash/0.5.15/vspackage

@@ -16,4 +16,4 @@ spec:
       name: vscode-node-debug
       memoryLimit: '512Mi'
   extensions:
-    - https://github.com/lautou/marketplace-visualstudio/ms-vscode/vsextensions/node-debug2/1.31.6/vspackage
+    - https://raw.githubusercontent.com/lautou/marketplace-visualstudio/master/ms-vscode/vsextensions/node-debug2/1.31.6/vspackage
