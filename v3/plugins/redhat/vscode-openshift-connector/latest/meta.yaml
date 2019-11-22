@@ -12,8 +12,8 @@ category: Other
 firstPublicationDate: "2019-10-08"
 spec:
   containers:
-    - image: "docker.io/eclipse/che-remote-plugin-openshift-connector-0.1.0:7.3.1"
+    - image: "docker.io/eclipse/che-remote-plugin-openshift-connector-0.1.0:7.3.0"
       name: "vscode-openshift-connector"
       memoryLimit: "512Mi"
   extensions:
-    - https://github.com/redhat-developer/vscode-openshift-tools/releases/download/v0.1.0/redhat.vscode-openshift-connector-0.1.0.vsix
+    - https://github.com/redhat-developer/vscode-openshift-tools/releases/download/v0.1.2/openshift-connector-0.1.2-420.vsix
